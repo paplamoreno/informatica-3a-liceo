@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jaja</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+      #contenedor {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "titulo ."
+        "parr1 imagena"
+        "parr2 imagena"
+        "parr3 imagena"
+        "tabla imagenb"
+        "boton5 boton6"
+        "boton7 .";
+      }
+      #parr1{
+          grid-area:parr1;
+      }
+      #parr2{
+          grid-area:parr2;
+      }
+      #parr3{
+          grid-area:parr3;
+      }
+      #imagenb{
+          grid-area:imagenb;
+      }
+      #imagena{
+          grid-area:imagena;
+      }
+      #tabla{
+          grid-area:tabla;
+      }
+      #boton5{
+          grid-area:boton5;
+      }
+      #boton6{
+          grid-area:boton6;
+      }
+      #boton7{
+          grid-area:boton7;
+      }
+
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+    <h1 id="titulo">Ferrari 488 pista</h1>
+        <p id="parr1">El Ferrari 488 Pista está dotado del motor V8 más potente de la historia de la marca de Maranello y es el deportivo serie especial con el nivel más elevado de transferencia tecnológica procedente del mundo de la competición. De hecho, su nombre se eligió específicamente para dejar constancia de la inigualable historia de Ferrari en este ámbito. Desde el punto de vista técnico, el 488 Pista condensa toda la experiencia acumulada por el 488 Challenge y el 488 GTE en los circuitos internacionales. </p>
+        <p id="parr2">En la mejora de las prestaciones del Ferrari 488 Pista ha desempeñado un papel fundamental la realización de un estudio exhaustivo en materia de aerodinámica. Trabajar un diseño centrado en la máxima capacidad de innovación ha permitido disfrutar de una libertad considerable en cuanto a ingeniería a la hora de desarrollar soluciones significativas.</p>
+         <p id="parr3"El aumento de la potencia en 50 CV respecto al motor del 488 GTB supone también el mayor salto comparativo en un vehículo Ferrari serie especial. Nada menos que un notable incremento de 115 CV en comparación con el modelo anterior, el 458 Speciale. Este V8 se posiciona pues como nuevo punto de referencia no solo para motores turbo sino, en general, para todo tipo de motores.</p>
+    <table border="1" id="tabla">
+        <tr>
+            <th>Potencia</th>
+            <td>720 caballos</td>
+        </tr>
+        <tr>
+            <th>Torque</th>
+            <td>770 N/m</td>
+        </tr>
+        <tr>
+            <th>Velocidad maxima</th>
+            <td>340 Km/H</td>
+        </tr>
+        <tr>
+            <th>0-100 Km/h</th>
+            <td>2.9 s</td>
+        </tr>
+        <tr>
+            <th>Peso</th>
+            <td>1460 Kg</td>
+        </tr>
+        <tr>
+            <th>Precio</th>
+            <td>1.600.000 millones de pesos </td>
+        </tr>
+    </table>
+    <img src="https://i.pinimg.com/originals/3a/b4/e1/3ab4e1abb22c418b018fe8a919e86c4f.jpg" width="270" height="300" id="imagena">
+    <img src="https://secureservercdn.net/166.62.112.199/x1r.536.myftpupload.com/wp-content/uploads/2019/07/image00011-1024x768.jpg" width="300" height="150" id="imagenb">
+    <button id="boton5">cambiar</button>
+    <button id="boton6">ocultar</button>
+    <button id="boton7">mostrar</button>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
