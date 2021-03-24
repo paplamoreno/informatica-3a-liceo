@@ -20,8 +20,8 @@ let Balon = {
         ctx.fill();
     },
     moverse:function(){
-        this.x = this.x + this.vX * dT/275;
-        this.y = this.y + this.vY * dT/275;
+        this.x = this.x + this.vX * dT/150;
+        this.y = this.y + this.vY * dT/150;
     }
 
 }
